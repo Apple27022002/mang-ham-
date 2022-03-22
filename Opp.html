@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    // class hinhtron {
+    //     bankinh;
+    //     mau;
+    //
+    //     tinhdientich() {
+    //         return(this.bankinh * Math.Pi * this.bankinh);
+    //     }
+    //     trabankinh(){
+    //         return bankinh
+    //     }
+    // }
+    // let hinhtron = new hinhtron2()  ;
+    // h1.bankinh =5;
+    // h1.mau = red;
+    // alert(h1.tinhdientich() +h1.trabankinh());
+// hinh tron co mau
+//     function Circle(x, y, radius){
+//         this.x = x;
+//         this.y = y;
+//         this.radius = radius;
+//     }
+//
+//     function getRandomHex(){
+//         return Math.floor(Math.random()*255);
+//     }
+//
+//     function getRandomColor(){
+//         var red = getRandomHex();
+//         var green = getRandomHex();
+//         var blue = getRandomHex();
+//         return "rgb(" + red + "," + blue + "," + green +")";
+//     }
+//
+//     function createCircle(){
+//         var ctx = document.getElementById("myCanvas").getContext("2d");
+//         var radius = Math.floor(Math.random() * 80);
+//         var color = getRandomColor(); ;
+//         var circle= new Circle(300, 300, radius);
+//         ctx.beginPath();
+//         ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+//         ctx.fillStyle = color;
+//         ctx.fill();
+//     }
+//
+//     createCircle();
+    Hinhchunhat
+    class hinhchunhat{
+        d;
+        r;
+
+        S(){
+            return (this.d * this.r);
+        }
+        cv(){
+            return (this.d + this.r)*2;
+        }
+        ve(){
+            let ctx =document.getElementById('cv').getContext('2d');
+            ctx.beginPath();
+            ctx.fillRect(this.d , this.r,);
+            ctx.closePath();
+        }
+    }
+    let h1 = new hinhchunhat();
+    h1.d =10 ;
+    h1.r =5;
+    alert(h1.cv() +h1.S)
+
+</script>
+
+</body>
+</html>
